@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css-files/contactus.css">
+    <script src="/javascript-files/contactus.js" defer></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <h3>TicTacToe.com</h3>
+                </li>
+
+                <li class="link">
+                    <a href="/ES6/tic.html">Home</a>
+                </li>
+
+                <li class="link">
+                    <a href="/ES6/abouttic.html">About Us</a>
+                </li>
+
+                <li class="link">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+   
+    <form id="contactForm" action="" method="get">
+        <div class="input-group">
+            <input type="text" id="Name" placeholder="Enter your Name">
+            <button type="button" id="saveName">Save</button>
+        </div>
+        <div class="input-group">
+            <input type="email" id="email" placeholder="Enter your email">
+            <button type="button" id="saveEmail">Save</button>
+        </div>
+        <label for="options">What kind of problem you faced</label>
+        <select id="opt1">
+            <option value="val1">Not working properly</option>
+            <option value="val2">Not Responsive</option>
+            <option value="val3">Just want to say thank you</option>
+        </select>
+        <div class="textarea">
+            <textarea id="textarea" placeholder="Enter your message here"></textarea>
+            <button type="button" id="saveMessage">Save Message</button>
+        </div>
+      
+    </form>
+</body>
+</html>
